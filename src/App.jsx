@@ -10,7 +10,9 @@ import ThridSection from './ThridSection/ThridSection'
 import FourthSection from './FourthSection/FourthSection'
 import FifthSection from './FifthSection/FifthSection'
 import SixthSection from './SixthSection/SixthSection'
+import YouTube from './YouTube/YouTube'
 import Footer from './Footer/Footer'
+
 function App() {
   const [count, setCount] = useState(0)
   
@@ -24,6 +26,7 @@ function App() {
      <FourthSection/>
      <FifthSection/>
      <SixthSection/>
+     <YouTube/>
      <Footer/>
     </>
   )
